@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Fall project 2018</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* Make images appear side-by-side */
+      .about-img {
+        display: flex;
+        justify-content: center; /* Center the images */
+        gap: 10px; /* Space between images */
+      }
+
+      .img-half {
+        width: 45%; /* Each image takes almost half of the available width */
+      }
+      @media (max-width: 991px) and (min-width: 768px) {
+        .about-img {
+          align-items: center; /* Center images */
+        }
+        .img-half {
+          width: 70%; /* Adjust width for readability */
+        }
+      }
+
+      /* Screen sizes below 768px - adjust to fit small screens without horizontal scroll */
+      @media (max-width: 767px) {
+        .about-img {
+          flex-direction: row; /* Display images horizontally */
+          flex-wrap: wrap; /* Wrap to avoid overflow */
+        }
+        .img-half {
+          width: 100%; /* Each image takes full width */
+          margin-bottom: 10px; /* Space between images */
+        }
+      }
+    </style>
+
+    <!-- favicon icon -->
+    <link rel="icon" href="img/favicon.png" />
+
+    <!-- All CSS Files Here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/et-line-fonts.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/meanmenu.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <!-- PRELOADER -->
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+    <!-- /PRELOADER -->
+    <!-- header start -->
+    <header id="sticky-header">
+      <div class="header-area">
+        <div class="container-fluid sm-100">
+          <div class="row">
+            <div class="col-md-3 col-sm-2">
+              <div class="logo text-upper">
+                <h4><a href="index.html">La Cucina di Mica</a></h4>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-10">
+              <div class="menu-area hidden-xs">
+                <nav>
+                  <ul class="basic-menu clearfix">
+                    <li><a href="about.html" target="_blank">about</a></li>
+                    <li>
+                      <a href="portfolio-single.html" target="_blank"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- basic-mobile-menu -->
+              <div class="basic-mobile-menu visible-xs">
+                <nav id="mobile-nav">
+                  <ul>
+                    <li><a href="about.html" target="_blank">about</a></li>
+                    <!-- PORTFOLIO -->
+                    <li>
+                      <a href="portfolio-single.html" target="_blank"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <!-- END PORTFOLIO -->
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <div class="about-us-area ptb-90">
+      <div class="container">
+        <div class="row">
+          <!-- ABOUT TEXT -->
+          <div class="col-md-12">
+            <div class="about-text mt-90">
+              <h5>Buzz Beat: The Bee Counter</h5>
+              <h6>Fall 2018</h6>
+              <p>
+                <b><i>Description: </i></b>The goal was to design a product that
+                allows the beekeepers to know whether a beehive is active or not
+                based on the number of bees entering & exiting a hive. Our
+                client, Andre Houssney from Jacobs Springs Farm, needed a
+                solution to a problem: beehives die unexpectedly. We worked and
+                found a way. “Buzz Beat” is a bee counter consisting of a Pixy
+                Cam, detecting bees going in and out of the hive by keeping
+                track of X and Y-coordinates. An LCD screen displays the number
+                of bees going in and out. Our client can now monitor the
+                activity of these amazing animals.
+              </p>
+              <p>
+                <b><i>My role: </i></b>I helped with prototyping and testing. I
+                first learned about Project Management because of this project.
+                It planted a seed of a passion that keeps growing ever since.
+              </p>
+            </div>
+          </div>
+          <!-- /ABOUT TEXT -->
+          <!-- PHOTO -->
+          <div class="col-md-12" style="display: flex; justify-content: center">
+            <div
+              class="about-img d-md-flex justify-content-center"
+              style="width: 37%"
+            >
+              <img src="img/Projects/BuzzBeat1.jpeg" alt="" />
+              <img src="img/Projects/BuzzBeat2.jpeg" alt="" />
+            </div>
+          </div>
+          <!-- /PHOTO -->
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="about-text mt-90">
+              <h5>Name Plate for Engineering Projects Team</h5>
+              <h6>Fall 2018</h6>
+              <p>
+                <b><i>Description:</i></b> This was my first Engineering project
+                ever. It had laser cut, 3D printed, and electrical parts.
+              </p>
+              <p>
+                <b><i> My role: </i></b>I was born and raised in rural
+                Argentina. Day 1 of this class made me feel far behind, everyone
+                kept talking about Arduino and CAD, and I didn’t even know what
+                those words meant. This name plate project started answering my
+                questions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12" style="display: flex; justify-content: center">
+            <div
+              class="about-img d-flex justify-content-center"
+              style="width: 37%"
+            >
+              <img
+                src="img/Projects/NamePlate.jpg"
+                alt=""
+                class="img-fluid mx-2"
+              />
+              <img
+                src="img//Projects/NamePlate2.jpg"
+                alt=""
+                class="img-fluid mx-2"
+              />
+            </div>
+          </div>
+          <!-- /PHOTO -->
+        </div>
+      </div>
+    </div>
+    <!-- footer start -->
+    <div class="basic-separator"></div>
+    <footer class="basic-footer text-center gray-bg ptb-90">
+      <div class="footer-logo mb-30">
+        <h3><a href="index.html">La Cucina di Mica</a></h3>
+      </div>
+      <div class="copyright mt-20">
+        <p>&copy; La Cucina di Mica 2024</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- All js plugins here -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
