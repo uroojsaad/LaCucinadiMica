@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>La Cucina di Mica</title>
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="A website about Micaela Cook, an engineer and cook, currently playing the role of a Product Manager."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- favicon icon -->
     <link rel="icon" href="img/favicon.png" />
@@ -19,6 +22,24 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+      .portfolio-thumb::before {
+        background-image: -webkit-linear-gradient(
+          135deg,
+          rgba(243, 71, 75, 0.9) 0%,
+          rgba(255, 152, 0, 0.9) 100%
+        );
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.3s ease 0s;
+        width: 100%;
+        z-index: 1;
+      }
+    </style>
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -49,7 +70,14 @@
               <div class="menu-area hidden-xs">
                 <nav>
                   <ul class="basic-menu clearfix">
-                    <li><a href="about.html" target="_blank">about</a></li>
+                    <li>
+                      <a
+                        href="about.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >about</a
+                      >
+                    </li>
                     <li>
                       <a href="portfolio-single.html" target="_blank"
                         >Portfolio</a
@@ -129,7 +157,6 @@
           >
             Food Gallery
           </button>
-
           <button data-filter=".graphic">Kitchen</button>
           <button data-filter=".design">Projects</button>
         </div>
@@ -138,7 +165,7 @@
           <div class="portfolio-item graphic">
             <div class="portfolio-wrapper">
               <div class="portfolio-thumb">
-                <img src="img/kitchen/teatime.jpg" alt="" />
+                <img src="img/kitchen/teatime.jpg" alt="Tea Time" />
                 <div class="view-icon">
                   <a href="teatime.html" target="_blank"
                     ><i class="ion-arrow-right-c"></i
