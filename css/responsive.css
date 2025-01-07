@@ -161,7 +161,6 @@
     color: #444;
     cursor: pointer;
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1px;
     font-weight: 700;
     height: 21px;
@@ -174,6 +173,13 @@
     top: 0;
     width: 22px;
   }
+  .slider-image {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  /* Your CSS rules here */
 }
 
 /*----------- Large Mobile -------------*/
